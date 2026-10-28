@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio van een Software Developer in opleiding aan het Alfa-college. Bekijk vaardigheden, projecten en contactgegevens.">
+  <title>Portfolio | Software Developer</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Hoofdnavigatie">
+      <a class="logo" href="#home" aria-label="Naar de homepage">DS<span>.</span></a>
+      <button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Menu openen">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#over-mij">Over mij</a></li>
+        <li><a href="#vaardigheden">Vaardigheden</a></li>
+        <li><a href="#projecten">Projecten</a></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> MBO 4 · Alfa-college</p>
+          <h1>Ik bouw graag aan <span>digitale oplossingen.</span></h1>
+          <p class="hero-text">Hoi, ik ben <strong>[Dylan Smits]</strong>, Software Developer in opleiding. Ik werk graag aan websites en applicaties en wil mijn programmeerkennis verder ontwikkelen in de praktijk.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projecten">Bekijk mijn projecten <span aria-hidden="true">↗</span></a>
+            <a class="button button-secondary" href="#contact">Neem contact op</a>
+          </div>
+          <div class="hero-meta">
+            <div><span class="meta-number">01</span><span>Nieuwsgierig<br>en leergierig</span></div>
+            <div><span class="meta-number">02</span><span>Graag problemen<br>oplossen</span></div>
+            <div><span class="meta-number">03</span><span>Altijd blijven<br>ontwikkelen</span></div>
+          </div>
+        </div>
+        <div class="hero-visual" aria-label="Decoratieve codevisualisatie">
+          <div class="visual-glow"></div>
+          <div class="code-window">
+            <div class="window-top"><div class="window-dots"><i></i><i></i><i></i></div><span>developer.js</span><span class="window-status">● online</span></div>
+            <div class="code-content">
+              <p><span class="line-no">01</span> <span class="code-purple">const</span> developer = {</p>
+              <p><span class="line-no">02</span> &nbsp; name: <span class="code-green">'[Jouw naam]'</span>,</p>
+              <p><span class="line-no">03</span> &nbsp; role: <span class="code-green">'Student developer'</span>,</p>
+              <p><span class="line-no">04</span> &nbsp; skills: [</p>
+              <p><span class="line-no">05</span> &nbsp; &nbsp; <span class="code-green">'HTML'</span>, <span class="code-green">'CSS'</span>,</p>
+              <p><span class="line-no">06</span> &nbsp; &nbsp; <span class="code-green">'JavaScript'</span>, <span class="code-green">'PHP'</span></p>
+              <p><span class="line-no">07</span> &nbsp; ],</p>
+              <p><span class="line-no">08</span> &nbsp; mindset: <span class="code-green">'Keep learning'</span></p>
+              <p><span class="line-no">09</span> };</p>
+              <p class="code-last"><span class="line-no">10</span> <span class="code-blue">console</span>.log(developer);<span class="cursor">▋</span></p>
+            </div>
+          </div>
+          <div class="floating-card"><span class="floating-icon">⌘</span><div><strong>Build. Test. Improve.</strong><small>Stap voor stap beter worden</small></div></div>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#over-mij"><span></span> Scroll om te ontdekken</a>
+    </section>
+
+    <section class="section section-alt" id="over-mij">
+      <div class="container two-column">
+        <div>
+          <p class="eyebrow">01 / Over mij</p>
+          <h2>Een developer in <span>ontwikkeling.</span></h2>
+        </div>
+        <div class="section-copy">
+          <p>Ik volg de opleiding Software Developer op MBO 4 aan het Alfa-college. Tijdens mijn opleiding werk ik aan websites, applicaties en databases. Ik vind het interessant om uit te zoeken hoe iets werkt en hoe ik een probleem met code kan oplossen.</p>
+          <p>Ik zoek een stageplek waar ik praktijkervaring kan opdoen, samen kan werken met andere developers en mijn vaardigheden verder kan uitbreiden.</p>
+          <a class="text-link" href="#contact">Zullen we kennismaken? <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="vaardigheden">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow">02 / Mijn toolkit</p><h2>Technische <span>vaardigheden.</span></h2></div>
+          <p>Een overzicht van technieken waarmee ik tijdens mijn opleiding en projecten heb gewerkt. Pas de niveaus aan zodat ze eerlijk weergeven wat je zelfstandig kunt.</p>
+        </div>
+        <div class="skills-layout">
+          <div class="skill-panel">
+            <h3>Development</h3>
+            <div class="skill" data-level="65"><div class="skill-label"><span>HTML &amp; CSS</span><span class="skill-level">Basis / gemiddeld</span></div><div class="skill-track"><span style="--level:65%"></span></div></div>
+            <div class="skill" data-level="55"><div class="skill-label"><span>PHP</span><span class="skill-level">Basis / gemiddeld</span></div><div class="skill-track"><span style="--level:55%"></span></div></div>
+            <div class="skill" data-level="40"><div class="skill-label"><span>JavaScript</span><span class="skill-level">Basis</span></div><div class="skill-track"><span style="--level:40%"></span></div></div>
+            <div class="skill" data-level="55"><div class="skill-label"><span>SQL / MySQL</span><span class="skill-level">Basis / gemiddeld</span></div><div class="skill-track"><span style="--level:55%"></span></div></div>
+          </div>
+          <div class="skill-panel">
+            <h3>Tools &amp; werkwijze</h3>
+            <div class="skill" data-level="55"><div class="skill-label"><span>Git &amp; GitHub</span><span class="skill-level">Basis / gemiddeld</span></div><div class="skill-track"><span style="--level:55%"></span></div></div>
+            <div class="skill" data-level="40"><div class="skill-label"><span>Docker</span><span class="skill-level">Basis</span></div><div class="skill-track"><span style="--level:40%"></span></div></div>
+            <div class="skill" data-level="60"><div class="skill-label"><span>VS Code</span><span class="skill-level">Regelmatig gebruikt</span></div><div class="skill-track"><span style="--level:60%"></span></div></div>
+            <p class="skill-note">Tip: kies zelf de niveaus. Je moet tijdens een stagegesprek kunnen uitleggen wat je al zelfstandig kunt en waarbij je nog hulp nodig hebt.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="soft-skills">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow">03 / Samenwerken</p><h2>Mijn persoonlijke <span>kwaliteiten.</span></h2></div>
+          <p>Techniek is belangrijk, maar ook hoe je leert, samenwerkt en omgaat met uitdagingen.</p>
+        </div>
+        <div class="soft-grid">
+          <article class="soft-card"><span class="soft-number">01</span><div class="soft-icon">↗</div><h3>Leergierig</h3><p>Ik wil nieuwe technieken leren en mijn kennis steeds verder uitbreiden.</p></article>
+          <article class="soft-card"><span class="soft-number">02</span><div class="soft-icon">⌘</div><h3>Probleemoplossend</h3><p>Ik probeer problemen stap voor stap te onderzoeken en oplossingen te testen.</p></article>
+          <article class="soft-card"><span class="soft-number">03</span><div class="soft-icon">◎</div><h3>Doorzettingsvermogen</h3><p>Als iets niet meteen werkt, probeer ik de oorzaak te vinden en opnieuw te testen.</p></article>
+          <article class="soft-card"><span class="soft-number">04</span><div class="soft-icon">✳</div><h3>Open voor feedback</h3><p>Ik gebruik feedback om mijn code, werkwijze en resultaten te verbeteren.</p></article>
+        </div>
+        <p class="small-note">Gebruik deze voorbeelden alleen als ze bij jou passen. Je kunt de teksten aanpassen aan je eigen ervaringen.</p>
+      </div>
+    </section>
+
+    <section class="section" id="projecten">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow">04 / Gemaakt met code</p><h2>Projecten waar ik <span>aan werkte.</span></h2></div>
+          <p>Een selectie van school- en oefenprojecten. Vervang de voorbeeldvisuals door screenshots van je eigen werk en controleer of alle beschrijvingen kloppen.</p>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-preview preview-todo" role="img" aria-label="Voorbeeldvisualisatie van een takenlijst-app">
+              <div class="mini-app"><div class="mini-app-head"><span>my tasks</span><span>＋</span></div><div class="mini-task checked"><i>✓</i><span>Portfolio bouwen</span></div><div class="mini-task"><i></i><span>Code controleren</span></div><div class="mini-task"><i></i><span>Project uploaden</span></div><div class="mini-progress"><span></span></div></div>
+              <span class="preview-label">PROJECT 01</span>
+            </div>
+            <div class="project-body"><div class="project-topline"><span class="project-type">Webapplicatie</span><span class="project-year">School / eigen werk</span></div><h3>Todo App</h3><p>Een applicatie om taken overzichtelijk bij te houden. Beschrijf hier welke functies jouw versie echt heeft, bijvoorbeeld taken toevoegen, afvinken of verwijderen.</p><div class="tag-list"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><div class="project-links"><a class="text-link" href="https://github.com/Abraxas1122/todo-app" target="_blank" rel="noopener noreferrer">Bekijk op GitHub ↗</a></div></div>
+          </article>
+          <article class="project-card">
+            <div class="project-preview preview-vehicles" role="img" aria-label="Voorbeeldvisualisatie van een voertuigenoverzicht">
+              <div class="mini-table"><div class="table-title">Voertuigen <span>＋ Nieuw</span></div><div class="table-row table-header"><span>Merk</span><span>Model</span><span>Jaar</span></div><div class="table-row"><span>Volvo</span><span>V40</span><span>2018</span></div><div class="table-row"><span>BMW</span><span>3-serie</span><span>2020</span></div><div class="table-row"><span>Audi</span><span>A3</span><span>2019</span></div></div>
+              <span class="preview-label">PROJECT 02</span>
+            </div>
+            <div class="project-body"><div class="project-topline"><span class="project-type">Database-applicatie</span><span class="project-year">Schoolproject</span></div><h3>Vehicle Manager</h3><p>Een PHP-applicatie voor het ophalen en beheren van voertuiggegevens uit een database. Voeg alleen functies toe die je daadwerkelijk hebt gebouwd.</p><div class="tag-list"><span>PHP</span><span>PDO</span><span>MySQL</span></div><div class="project-links"><span class="project-private">Voeg je eigen GitHub-link toe</span></div></div>
+          </article>
+          <article class="project-card">
+            <div class="project-preview preview-docker" role="img" aria-label="Voorbeeldvisualisatie van een Docker-omgeving">
+              <div class="container-stack"><div class="container-box"><span>01</span><strong>Apache + PHP</strong><small>Webserver</small></div><div class="container-box"><span>02</span><strong>MySQL</strong><small>Database</small></div><div class="container-box"><span>03</span><strong>phpMyAdmin</strong><small>Databasebeheer</small></div></div>
+              <span class="preview-label">PROJECT 03</span>
+            </div>
+            <div class="project-body"><div class="project-topline"><span class="project-type">Ontwikkelomgeving</span><span class="project-year">Schoolproject</span></div><h3>Docker-project</h3><p>Een ontwikkelomgeving waarin services met Docker Compose worden gestart. Leg uit hoe jouw containers en poorten zijn ingesteld.</p><div class="tag-list"><span>Docker</span><span>PHP</span><span>MySQL</span></div><div class="project-links"><a class="text-link" href="https://github.com/Abraxas1122/docker_project_school" target="_blank" rel="noopener noreferrer">Bekijk op GitHub ↗</a></div></div>
+          </article>
+        </div>
+        <p class="small-note">De projectafbeeldingen op deze pagina zijn CSS-illustraties, geen screenshots van je echte apps. Vervang ze door eigen screenshots zodra je projecten weer werken.</p>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="github">
+      <div class="container github-banner">
+        <div><p class="eyebrow">05 / Mijn code</p><h2>Bekijk mijn werk op <span>GitHub.</span></h2><p>Op GitHub deel ik mijn code en werk ik aan projecten. Bekijk mijn repositories om meer te zien van wat ik maak.</p></div>
+        <a class="button button-primary" href="https://github.com/Abraxas1122" target="_blank" rel="noopener noreferrer">Naar mijn GitHub <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container contact-layout">
+        <div class="contact-intro"><p class="eyebrow">06 / Contact</p><h2>Op zoek naar een stagiair? <span>Laten we praten.</span></h2><p>Heb je een vraag over mijn projecten of wil je kennismaken over een mogelijke stage? Stuur me een bericht.</p><div class="contact-detail"><span class="contact-symbol">@</span><div><small>E-mail</small><a href="mailto:df.smits@student.alfa-college.nl">df.smits@student.alfa-college.nl</a></div></div><div class="contact-detail"><span class="contact-symbol">⌘</span><div><small>GitHub</small><a href="https://github.com/Abraxas1122" target="_blank" rel="noopener noreferrer">github.com/Abraxas1122</a></div></div></div>
+        <form class="contact-form" id="contact-form">
+          <div class="form-row"><label for="name">Naam</label><input id="name" name="name" type="text" placeholder="Je naam" autocomplete="name" required></div>
+          <div class="form-row"><label for="email">E-mailadres</label><input id="email" name="email" type="email" placeholder="naam@bedrijf.nl" autocomplete="email" required></div>
+          <div class="form-row"><label for="subject">Onderwerp</label><input id="subject" name="subject" type="text" placeholder="Bijvoorbeeld: stageplek" required></div>
+          <div class="form-row"><label for="message">Bericht</label><textarea id="message" name="message" rows="5" placeholder="Waar kan ik je mee helpen?" required></textarea></div>
+          <button class="button button-primary submit-button" type="submit">Bericht voorbereiden <span aria-hidden="true">↗</span></button>
+          <p class="form-hint">Dit formulier gebruikt je e-mailprogramma om een bericht voor te bereiden. Er is geen server gekoppeld, dus het verstuurt niet automatisch vanuit de website.</p>
+          <p class="form-feedback" id="form-feedback" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner"><a class="logo" href="#home">DS<span>.</span></a><p>Gemaakt met HTML, CSS en JavaScript.</p><a href="#home" class="back-top">Terug naar boven ↑</a><span class="copyright">© <span id="year"></span> [Jouw naam]</span></div>
+  </footer>
+</body>
+</html>
